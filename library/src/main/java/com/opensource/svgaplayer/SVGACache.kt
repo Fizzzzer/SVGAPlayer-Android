@@ -16,7 +16,7 @@ object SVGACache {
     }
 
     private const val TAG = "SVGACache"
-    private var type: Type = Type.DEFAULT
+    private var type: Type = Type.FILE
     private var cacheDir: String = "/"
         get() {
             if (field != "/") {
